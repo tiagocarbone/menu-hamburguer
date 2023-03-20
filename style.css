@@ -8,17 +8,18 @@ body{
     background-color: rgb(135, 10, 40);
 }
 
-
+h1 {
+    color: rgb(223, 221, 221);
+}
 
 .titulo {
+    margin-top: 10px;
     display: flex;
-    justify-content:space-between;
+    justify-content:center;
     align-items: center;
     flex-direction: row-reverse;
     position: relative;
-    padding-top: 10px;
-    padding-right: 88px;
-    padding-left: 6px;
+   
 }
 
 
@@ -32,6 +33,7 @@ body{
 .hamburguer {
     display: flex;
 }
+
 
 input{
     display: none;
@@ -54,6 +56,8 @@ a {
     display: inline-block;
     margin-left: 5px;
     position: relative;
+    top: -27px;
+    left: 5px;
     
 }
 
@@ -63,7 +67,7 @@ a {
   
 }
 
-.hamburguer.container__botao:checked~.display__none{
+.container__botao:checked~.display__none{
     display: block;
     position:absolute ;
 }
